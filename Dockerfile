@@ -22,7 +22,7 @@ RUN apt-get update
 RUN apt-get install -y software-properties-common
 RUN apt-get install -y curl
 RUN apt-get install -y wget
-RUN apt-get install -y openjdk-8-jdk
+RUN apt-get install -y openjdk-17-jdk
 RUN apt-get install -y python3.8
 RUN apt-get install -y python3-pip
 RUN apt-get install -y git
